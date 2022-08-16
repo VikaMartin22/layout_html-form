@@ -79,8 +79,7 @@
         <div class="form-field">
           Do you love cats?
 
-          <label
-          class="cats">
+          <label class="cats">
             <input
               type="radio"
               name="isCatLover"
@@ -113,9 +112,13 @@
           <input type="time" name="timeToBed">
         </label>
 
-        <label contenteditable="true" class="form-field">
+        <label class="form-field">
           What are your favorite brand of cars?
-          <input name="favoriteBrand" value="BMW Audi Lada">
+          <select name="favoriteBrand" multiple>
+            <option value="BMW">BMW</option>
+            <option value="Audi">Audi</option>
+            <option value="Lada">Lada</option>
+          </select>
         </label>
 
         <label class="form-field">
